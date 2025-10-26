@@ -14,8 +14,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestRestAssuredBase64 {
     @Test
     void testBase64() {
-        RestAssured.proxy = host("localhost").withPort(8888);
-        RestAssured.useRelaxedHTTPSValidation();
+//        RestAssured.proxy = host("localhost").withPort(8888);
+//        RestAssured.useRelaxedHTTPSValidation();
         byte[] bytes = "qiongke".getBytes(StandardCharsets.UTF_8);
         String encode = Base64.encodeBase64String(bytes);
         String res =

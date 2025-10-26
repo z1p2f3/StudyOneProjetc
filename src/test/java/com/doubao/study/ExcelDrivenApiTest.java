@@ -4,6 +4,7 @@ import com.alibaba.excel.EasyExcel;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import lombok.Data;
+//import lombok.var;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import java.util.*;
