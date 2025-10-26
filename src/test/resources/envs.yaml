@@ -1,0 +1,3 @@
+default: ceshiren
+ceshiren: http://httpbin.ceshiren.com
+org: http://httpbin.org
